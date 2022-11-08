@@ -6,12 +6,14 @@
     "type": "module",
     "scripts": {
         "start": "nodemon server.js",
+        "dev": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "uuid": "^9.0.0",
         "ws": "^8.11.0"
     },
     "devDependencies": {
